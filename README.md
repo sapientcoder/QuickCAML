@@ -1,2 +1,2 @@
-# quickcaml
+# QuickCAML
 QuickCAML Tool for SharePoint
