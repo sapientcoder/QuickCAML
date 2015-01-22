@@ -15,5 +15,8 @@ If you install the tool in a production environment, you may also want to lock d
 ## Required Permissions
 We're still doing testing to determine exactly what permissions are required to use this tool. So far, it looks like you need at least the "Manage Lists" permission in whatever site you're working with.
 
+## Feedback and Feature Requests
+This is a *brand new* tool, and we want to hear from you!! If you have issues with certain browsers, list fields, permissions, or anything else, please use the [Issues](https://github.com/inclinetechnical/QuickCAML/issues) page in this repository to let us know! You can also use the Issues page to request new features.
+
 ## SharePoint Version Compatibility
 QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
