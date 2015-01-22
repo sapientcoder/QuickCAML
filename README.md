@@ -18,5 +18,7 @@ We're still doing testing to determine exactly what permissions are required to 
 ## Feedback and Feature Requests
 This is a *brand new* tool, and we want to hear from you!! If you have issues with certain browsers, list fields, permissions, or anything else, please use the [Issues](https://github.com/inclinetechnical/QuickCAML/issues) page in this repository to let us know! You can also use the Issues page to request new features.
 
-## SharePoint Version Compatibility
+## SharePoint & Browser Compatibility
 QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
+
+QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, and Safari. We're still doing testing to compile the official browser compability list, and we welcome your help with that task!
