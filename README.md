@@ -6,7 +6,7 @@ And as a code-oriented tool, a key feature is the **intellisense** support! This
 ![alt tag](https://doseofdotnet.files.wordpress.com/2015/01/caml_tool1.png "Screenshot of QuickCAML showing intellisense")
 
 ## Installation Instructions
-Right now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
+For now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
 
 You can download the ASPX file from our latest release: https://github.com/inclinetechnical/QuickCAML/releases/latest
 
@@ -20,7 +20,17 @@ We're still doing testing to determine exactly what permissions are required to 
 ## Feedback and Feature Requests
 This is a *brand new* tool, and we want to hear from you!! If you have issues with certain browsers, list fields, permissions, or anything else, please use the [Issues](https://github.com/inclinetechnical/QuickCAML/issues) page in this repository to let us know! You can also use the Issues page to request new features.
 
+For example, does uploading an ASPX file work well for you as a deployment option? Or do you need us to provide another way to install this tool in an environment where you're working? Let us know!
+
 ## SharePoint & Browser Compatibility
 QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
 
 QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, and Safari. We're still doing testing to compile the official browser compability list, and we welcome your help with that task!
+
+## A Look at the Future
+
+This list could change or be re-prioritized based on user feedback, but here are some updates and enhancements we're thinking of making:
+
+* Move JavaScript code into its own file on GitHub and use a build process to minify it and merge it with ASPX markup to create the QuickCAML.aspx page for download. This will improve performance and let us re-use the JS code elsewhere as needed (for example, in a server-side version of this tool deployed as a web part or application page).
+* Improve the display of query results. Right now we just use a basic HTML table with forward-only paging since that's the only direction natively supported by the client-side APIs. We plan to also offer a text-based, delimited view of results (similar to CSV) and add backward paging. The delimited view definitely presents some challenges since SharePoint embeds commas and newlines in several hidden fields that may be returned with results.
+* Add a little more functionality to the JSOM API to mimic what the web services and server-based object model can do. For example, the JSOM API doesn't support the *IncludeMandatoryColumns* option, but that option would be fairly easy for us to duplicate client-side and support it indirectly.
