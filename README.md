@@ -19,11 +19,7 @@ If you install the tool in a production environment, you may also want to lock d
 We're still doing testing to determine exactly what permissions are required to use this tool. So far, it looks like you need at least the "Manage Lists" permission in whatever site you're working with.
 
 ## Feedback and Feature Requests
-This is a *brand new* tool, and we want to hear from you!! If you have issues with certain browsers, list fields, permissions, or anything else, please use the [Issues](https://github.com/inclinetechnical/QuickCAML/issues) page in this repository to let us know! You can also use the Issues page to request new features.
-
-For example, does uploading an ASPX file work well for you as a deployment option? Or do you need us to provide another way to install this tool in an environment where you're working? Let us know!
-
-Also, does our approach of loading JavaScript libraries like jQuery and Knockout JS from a CDN (publicly hosted URL) work in your environment, or do you need a version that lets you locally host those files? That's also something we want to know.
+This is a *brand new* tool, and we want to hear from you!! If something doesn't work in your browser/environment or there's something you'd like to see, please let us know! You can use the "Issues" page of this repository to submit bugs, issues, questions, or feature suggestions. You do have to be signed into GitHub to submit issues, but creating an account with them is easy and free.
 
 ## SharePoint & Browser Compatibility
 QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
@@ -37,3 +33,4 @@ This list could change or be re-prioritized based on user feedback, but here are
 * Move JavaScript code into its own file on GitHub and use a build process to minify it and merge it with ASPX markup to create the QuickCAML.aspx page for download. This will improve performance and let us re-use the JS code elsewhere as needed (for example, in a server-side version of this tool deployed as a web part or application page).
 * Improve the display of query results. Right now we just use a basic HTML table with forward-only paging since that's the only direction natively supported by the client-side APIs. We plan to also offer a text-based, delimited view of results (similar to CSV) and add backward paging. The delimited view definitely presents some challenges since SharePoint embeds commas and newlines in several hidden fields that may be returned with results.
 * Add a little more functionality to the JSOM API to mimic what the web services and server-based object model can do. For example, the JSOM API doesn't support the *IncludeMandatoryColumns* option, but that option would be fairly easy for us to duplicate client-side and support it indirectly.
+* Create a non-browser version of the tool that could be run locally on a desktop, laptop, or tablet. This could possibly be a Windows store app (free, obviously) or Visual Studio extension.
