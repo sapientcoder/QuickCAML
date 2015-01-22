@@ -3,6 +3,8 @@ QuickCAML is a tool for quickly authoring and testing CAML queries in SharePoint
 
 And as a code-oriented tool, a key feature is the **intellisense** support! This tool provides context-sensitive suggestions for tag names, attribute names, and attribute values (including list field names where appropriate!).
 
+![alt tag](https://doseofdotnet.files.wordpress.com/2015/01/caml_tool1.png "Screenshot of QuickCAML showing intellisense")
+
 ## Installation Instructions
 Right now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
 
