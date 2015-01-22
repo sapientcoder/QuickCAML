@@ -22,6 +22,8 @@ This is a *brand new* tool, and we want to hear from you!! If you have issues wi
 
 For example, does uploading an ASPX file work well for you as a deployment option? Or do you need us to provide another way to install this tool in an environment where you're working? Let us know!
 
+Also, does our approach of loading JavaScript libraries like jQuery and Knockout JS work in your environment, or do you need a version that lets you locally host those files? That's also something we want to know.
+
 ## SharePoint & Browser Compatibility
 QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
 
