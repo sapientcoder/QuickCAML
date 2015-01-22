@@ -79,7 +79,7 @@ Use the "Issues" tab on the GitHub page to report issues or request features.
 		<div class="section-content">
 			<p>
 				<a href="" data-bind="click: function() { visibleSectionId('results-section'); }, visible: (queryResult)" style="display: none;">
-				View most recent results »</a>
+				View most recent results &raquo;</a>
 			</p>
 			<div id="queryDefForm">
 				<div class="field-row">
@@ -183,7 +183,7 @@ Use the "Issues" tab on the GitHub page to report issues or request features.
 		<div class="section-content">
 			<p>
 				<a href="" data-bind="click: function() { visibleSectionId('query-section'); }">
-				« Back to query definition</a>
+				&laquo; Back to query definition</a>
 			</p>
 			<div data-bind="with: queryResult">
 				<p style="line-height: 20px;">
