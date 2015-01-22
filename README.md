@@ -30,7 +30,7 @@ QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, 
 
 This list could change or be re-prioritized based on user feedback, but here are some updates and enhancements we're thinking of making:
 
-* Move JavaScript code into its own file on GitHub and use a build process to minify it and merge it with ASPX markup to create the QuickCAML.aspx page for download. This will improve performance and let us re-use the JS code elsewhere as needed (for example, in a server-side version of this tool deployed as a web part or application page).
-* Improve the display of query results. Right now we just use a basic HTML table with forward-only paging since that's the only direction natively supported by the client-side APIs. We plan to also offer a text-based, delimited view of results (similar to CSV) and add backward paging. The delimited view definitely presents some challenges since SharePoint embeds commas and newlines in several hidden fields that may be returned with results.
+* Create a non-browser version of the tool that could be run locally on a desktop, laptop, or tablet. This could possibly be a Windows store app (free, obviously) or Visual Studio extension. This also offers some powerful options when it comes to displaying and exporting data from queries.
+* Minify JavaScript code in QuickCAML.aspx to maximize performance (could still view non-minified code here on GitHub).
+* Clean up display of query results and offer a CSV/delimited option which could be copied-and-pasted from the browser to another tool (like Excel).
 * Add a little more functionality to the JSOM API to mimic what the web services and server-based object model can do. For example, the JSOM API doesn't support the *IncludeMandatoryColumns* option, but that option would be fairly easy for us to duplicate client-side and support it indirectly.
-* Create a non-browser version of the tool that could be run locally on a desktop, laptop, or tablet. This could possibly be a Windows store app (free, obviously) or Visual Studio extension.
