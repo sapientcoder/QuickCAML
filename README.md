@@ -6,6 +6,8 @@ And as a code-oriented tool, a key feature is the **intellisense** support! This
 ## Installation Instructions
 Right now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
 
+To download the ASPX file, grab it from our latest release: https://github.com/inclinetechnical/QuickCAML/releases/tag/v0.5-beta
+
 Because we use client-side APIs, the tool is scoped to the site collection level or below. Our recommendation is to install the tool in the top-level site of the site collection and change the Site URL to any site within the site collection as needed. However, if your permissions don't allow you to install it in the top-level site, it can be installed within a subsite and used there as well.
 
 If you install the tool in a production environment, you may also want to lock down permissions on it (i.e. customize permissions on the QuickCAML page or the folder it lives in). It depends on your user base and your specific requirements.
