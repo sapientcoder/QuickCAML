@@ -30,7 +30,7 @@ QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, 
 
 This list could change or be re-prioritized based on user feedback, but here are some updates and enhancements we're thinking of making:
 
-* Create a non-browser version of the tool that could be run locally on a desktop, laptop, or tablet. This could possibly be a Windows store app (free, obviously) or Visual Studio extension. This also offers some powerful options when it comes to displaying and exporting data from queries.
+* Create a non-browser version of QuickCAML that could be run locally on a desktop, laptop, or tablet - similar to how other CAML tools like U2U and CamlDesigner work. This would allow for a more powerful app experience while retaining the clean, code-oriented UI and intellisense that are both signatures of QuickCAML.
 * Minify JavaScript code in QuickCAML.aspx to maximize performance (could still view non-minified code here on GitHub).
 * Clean up display of query results and offer a CSV/delimited option which could be copied-and-pasted from the browser to another tool (like Excel).
 * Add a little more functionality to the JSOM API to mimic what the web services and server-based object model can do. For example, the JSOM API doesn't support the *IncludeMandatoryColumns* option, but that option would be fairly easy for us to duplicate client-side and support it indirectly.
