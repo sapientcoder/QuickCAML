@@ -5,6 +5,8 @@ And as a code-oriented tool, a key feature is the **intellisense** support! This
 
 ![alt tag](https://doseofdotnet.files.wordpress.com/2015/01/caml_tool1.png "Screenshot of QuickCAML showing intellisense")
 
+Query settings and options are [documented in the wiki](/inclinetechnical/QuickCAML/wiki/Query-Settings-&-Options) for this project.
+
 ## Installation Instructions
 For now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
 
