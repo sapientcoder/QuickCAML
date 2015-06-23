@@ -271,14 +271,14 @@ Use the "Issues" tab on the GitHub page to report issues or request features.
 			'or' : { tag: 'Or', children: logicAndComparisonTags },
 			'orderby' : { tag: 'OrderBy', children: [ 'fieldref' ], attrs: { 'override' : { name : 'Override', values : 'TRUE|FALSE' }, 'useindexfororderby' : { name : 'UseIndexForOrderBy', values : 'TRUE|FALSE'} } },
 			'projectedfields' : { tag: 'ProjectedFields', children: [ 'field' ] },
-			'query' : { tag: 'Query', children: [ 'where' ] },
+			'query' : { tag: 'Query', children: [ 'where', 'orderby' ] },
 			'today' : { tag: 'Today', attrs: { 'offset' : { name : 'Offset' } } },
 			'userid' : { tag: 'UserID' },
 			'value' : { tag: 'Value', children: [ 'listproperty', 'month', 'now', 'today', 'userid', 'xml' ], attrs: { 'type' : { name : 'Type', values: 'Boolean|DateTime|Integer|Lookup|Number|Text' }, 'includetimevalue' : { name : 'IncludeTimeValue', values : 'TRUE|FALSE' } } },
 			'values' : { tag: 'Values', children: [ 'value' ] },
 			'view' : { tag: 'View', children: [ 'joins', 'projectedfields', 'query', 'viewfields' ], attrs: { 'scope' : { name : 'Scope', values : 'FilesOnly|Recursive|RecursiveAll' } } },
 			'viewfields' : { tag: 'ViewFields', children: [ 'fieldref' ] },
-			'where' : { tag: 'Where', children: logicAndComparisonTags.concat('orderby') },
+			'where' : { tag: 'Where', children: logicAndComparisonTags },
 			'xml' : { tag: 'XML' }
 		};
 		
