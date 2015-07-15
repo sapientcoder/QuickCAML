@@ -829,7 +829,6 @@ Use the "Issues" tab on the GitHub page to report issues or request features.
 						}
 						idx++;
 					}
-					self.csvData(csv);
 				}
 			}
 		}
