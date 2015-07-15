@@ -1,5 +1,5 @@
 # QuickCAML
-QuickCAML is a tool for quickly authoring and testing CAML queries in SharePoint 2013 and SharePoint Online (Office 365). It's a client-side tool and is designed to be run right in your browser which avoids a lot of governance issues, risk, and red tape. This is a *code-oriented* tool and is geared toward helping you write and test CAML queries quickly (and helping you learn the CAML language if you don't already know it).
+QuickCAML is a tool for quickly authoring and testing CAML queries in SharePoint 2010 and 2013 (including SPO / Office 365). It's a client-side tool and is designed to be run right in your browser which avoids a lot of governance issues, risk, and red tape. This is a *code-oriented* tool and is geared toward helping you write and test CAML queries quickly (and helping you learn the CAML language if you don't already know it).
 
 And as a code-oriented tool, a key feature is the **intellisense** support! This tool provides context-sensitive suggestions for tag names, attribute names, and attribute values (including list field names where appropriate!).
 
@@ -10,8 +10,8 @@ Query settings and options are [documented in the wiki](https://github.com/incli
 ## Installation Instructions
 For now, QuickCAML is installed by uploading a site page (ASPX file) into a SharePoint wiki page library. The most common scenario is to upload the site page into the **Site Pages** library, but any document library that supports site pages (wiki pages) is fine.
 
-You can download the ASPX file from our latest release:
-https://github.com/inclinetechnical/QuickCAML/releases/tag/v0.5-beta.2
+You can download QuickCAML for your version of SharePoint from our latest release:
+https://github.com/inclinetechnical/QuickCAML/releases/tag/v0.5-beta.3
 
 Because we use client-side APIs, the tool is scoped to the site collection level or below. Our recommendation is to install the tool in the top-level site of the site collection and change the Site URL to any site within the site collection as needed. However, if your permissions don't allow you to install it in the top-level site, it can be installed within a subsite and used there as well.
 
@@ -24,9 +24,9 @@ We're still doing testing to determine exactly what permissions are required to 
 This is a *brand new* tool, and we want to hear from you!! If something doesn't work in your browser/environment or there's something you'd like to see, please let us know! You can use the "Issues" page of this repository to submit bugs, issues, questions, or feature suggestions. You do have to be signed into GitHub to submit issues, but creating an account with them is easy and free.
 
 ## SharePoint & Browser Compatibility
-QuickCAML targets SharePoint 2013 (on-premise and Office 365). It is not supported on versions of SharePoint prior to 2013.
+QuickCAML supports SharePoint 2010 and 2013 (including Office 365).
 
-QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, and Safari. We're still doing testing to compile the official browser compability list, and we welcome your help with that task!
+QuickCAML should work with IE 9+ as well as modern versions of FireFox, Chrome, and Safari. If that's not the case, please log an issue and let us know!
 
 ## A Look at the Future
 
