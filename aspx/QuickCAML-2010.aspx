@@ -837,7 +837,6 @@ GitHub page to report issues or request features.
 						}
 						idx++;
 					}
-					self.csvData(csv);
 				}
 			}
 		}
