@@ -3,7 +3,7 @@ QuickCAML is a tool for quickly authoring and testing CAML queries in SharePoint
 
 And as a code-oriented tool, a key feature is the **intellisense** support! This tool provides context-sensitive suggestions for tag names, attribute names, and attribute values (including list field names where appropriate!).
 
-![alt tag](https://doseofdotnet.files.wordpress.com/2015/01/caml_tool1.png "Screenshot of QuickCAML showing intellisense")
+![alt tag](https://yieldreturnpost.files.wordpress.com/2015/01/caml_tool1.png "Screenshot of QuickCAML showing intellisense")
 
 Query settings and options are [documented in the wiki](https://github.com/inclinetechnical/QuickCAML/wiki/Query-Settings-&-Options) for this project.
 
